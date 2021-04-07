@@ -6,6 +6,6 @@
   "unity": "2018.3",
   "license": "MIT",
   "dependencies": {
-    "com.tapsdk.common": "https://github.com/TapTap/TapCommon-Unity.git#0.0.1"
+    "com.tapsdk.common": "https://github.com/EingShaw/TapCommon.git#0.1.1"
   }
 }
