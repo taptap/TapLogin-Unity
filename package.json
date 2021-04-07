@@ -1,0 +1,11 @@
+{
+  "name": "com.tapsdk.login",
+  "displayName": "Tap Login",
+  "description": "TapTap Develop Service",
+  "version": "2.0.0",
+  "unity": "2018.3",
+  "license": "MIT",
+  "dependencies": {
+    "com.tapsdk.common": "https://github.com/TapTap/TapCommon-Unity.git#0.0.1"
+  }
+}
