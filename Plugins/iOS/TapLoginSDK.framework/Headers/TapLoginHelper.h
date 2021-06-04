@@ -6,16 +6,12 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <TapLoginSDK/TTSDKConfig.h>
-#import <TapLoginSDK/TTSDKAccessToken.h>
-#import <TapLoginSDK/TTSDKProfile.h>
-#import <TapLoginSDK/TTSDKLoginResult.h>
-#import <TapLoginSDK/AccountGlobalError.h>
-#import <TapLoginSDK/TapLoginResultDelegate.h>
-
-#define TapLoginSDK @"TapLogin"
-#define TapLoginSDK_VERSION_NUMBER @"20103001"
-#define TapLoginSDK_VERSION        @"2.1.3"
+#import "TTSDKConfig.h"
+#import "TTSDKAccessToken.h"
+#import "TTSDKProfile.h"
+#import "TTSDKLoginResult.h"
+#import "AccountGlobalError.h"
+#import "TapLoginResultDelegate.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -60,10 +56,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 /// 登出
 + (void)logout;
-
-/// 获取当前用户是否有测试资格
-/// @param callback 回调
-+ (void)getTestQualification:(void (^)(BOOL isQualified, NSError *_Nullable error))callback;
 
 /// 当前是否有国内客户端支持
 + (BOOL)isTapTapClientSupport;
