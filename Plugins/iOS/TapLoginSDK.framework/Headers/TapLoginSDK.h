@@ -15,8 +15,6 @@ FOUNDATION_EXPORT const unsigned char TapLoginSDKVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <TapLoginSDK/PublicHeader.h>
 
-#define TapLoginSDK_VERSION        @"2.0.0"
-
 #import <TapLoginSDK/TTSDKConfig.h>
 #import <TapLoginSDK/TapLoginHelper.h>
 #import <TapLoginSDK/TTSDKProfile.h>
