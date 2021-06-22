@@ -1,4 +1,3 @@
+### New Feature
 
-### Dependencies
-
-- TapTap.Common v2.1.4
+- 云玩内唤起 TapTap 客户端登陆

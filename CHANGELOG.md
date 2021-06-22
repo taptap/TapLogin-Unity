@@ -1,5 +1,11 @@
 # ChangeLog
 
+### 2.1.5
+
+### New Feature
+
+- 云玩内唤起 TapTap 客户端登陆
+
 ### 2.1.4
 
 ### Dependencies
