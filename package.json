@@ -2,10 +2,10 @@
   "name": "com.taptap.tds.login",
   "displayName": "TapTap Login",
   "description": "TapTap Develop Service",
-  "version": "2.1.4",
+  "version": "2.1.5",
   "unity": "2018.3",
   "license": "MIT",
   "dependencies": {
-    "com.taptap.tds.common": "https://github.com/TapTap/TapCommon-Unity.git#2.1.4"
+    "com.taptap.tds.common": "https://github.com/TapTap/TapCommon-Unity.git#2.1.5"
   }
 }
