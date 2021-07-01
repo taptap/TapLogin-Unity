@@ -1,3 +1,6 @@
-### New Feature
+### Optimization and fixed bugs
+- 修复 TapTap 授权登录的一些 UI 问题
 
-- 云玩内唤起 TapTap 客户端登陆
+### Dependencies
+
+- TapTap.Common v2.1.6
