@@ -27,7 +27,8 @@ namespace TapTap.Login.Editor
             // UnityAppController.mm 中对于 URLScheme 的处理
             var unityAppControllerPath = path + "/Classes/UnityAppController.mm";
             var unityAppController = new TapFileHelper(unityAppControllerPath);
-            unityAppController.WriteBelow(@"#import <OpenGLES/ES2/glext.h>", @"#import <TapLoginSDK/TapLoginHelper.h>");
+            unityAppController.WriteBelow(@"#import ""UnityAppController.h""",
+                @"#import <TapLoginSDK/TapLoginHelper.h>");
             unityAppController.WriteBelow(
                 @"id sourceApplication = options[UIApplicationOpenURLOptionsSourceApplicationKey], annotation = options[UIApplicationOpenURLOptionsAnnotationKey];",
                 @"if(url){[TapLoginHelper handleTapTapOpenURL:url];}");
