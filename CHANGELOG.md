@@ -1,5 +1,15 @@
 # ChangeLog
 
+## 2.1.7
+
+### Optimization
+
+- 更新 iOS 拦截 openUrl 方式
+
+### Dependencies
+
+- TapTap.Common v2.1.7
+
 ### 2.1.6
 
 ### Optimization and fixed bugs
