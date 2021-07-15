@@ -3,10 +3,9 @@
 ## 使用前提
 
 使用 TapTap.Bootstrap 前提是必须依赖以下库:
-
 * [TapTap.Common](https://github.com/TapTap/TapCommon-Unity.git)
 
-> 如果开发者在游戏中同时接入了多家第三方（例如支持苹果、微信、Facebook 等账户登录），只把 TapTap 当成一个普通的登录渠道，那么在客户端可以只依赖 `TapLogin` 这一个模块，并按照如下的流程来接入：
+> 如果开发者在游戏中同时接入了多家第三方（例如支持苹果、微信、Facebook 等账户登录），只把 TapTap 当成一个普通的登录渠道，那么在客户端可以只依赖 `TapLogin、TapCommon` 这 2  个模块，并按照如下的流程来接入：
 
 ### 1.初始化
 
@@ -37,7 +36,6 @@ var profile = await TapLogin.FetchProfile();
 ```
 
 ### 5. 获取篝火测试资格
-
 ```c#
 var boolean = await TapLogin.GetTestQualification();
 ```
