@@ -1,5 +1,5 @@
 //
-//  TapTapLoginResultDelegate.h
+//  TapLoginResultDelegate.h
 //  Pods-TDSLoginSource_Example
 //
 //  Created by Bottle K on 2020/12/15.
@@ -10,7 +10,7 @@
 #import <TapLoginSDK/TTSDKAccessToken.h>
 NS_ASSUME_NONNULL_BEGIN
 
-@protocol TapTapLoginResultDelegate <NSObject>
+@protocol TapLoginResultDelegate <NSObject>
 
 /// 登录成功回调
 /// @param token token对象
