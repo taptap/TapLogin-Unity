@@ -13,7 +13,7 @@
   ```
 - 新增篝火测试资格
   ```
-  var boolean = TapLogin.GetTestQualification();
+  var boolean = await TapLogin.GetTestQualification();
   ```
 ### Dependencies
 
