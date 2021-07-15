@@ -10,7 +10,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface IscTapLoginService : NSObject
-+ (void)addSDKLoginResultDelegate:(NSString *)sdkName delegate:(id <TapLoginResultDelegate>)delegate;
++ (void)addSDKLoginResultDelegate:(NSString *)sdkName delegate:(id <TapTapLoginResultDelegate>)delegate;
 
 + (void)removeSDKLoginResultDelegate:(NSString *)sdkName;
 

@@ -22,4 +22,4 @@ FOUNDATION_EXPORT const unsigned char TapLoginSDKVersionString[];
 #import <TapLoginSDK/AccountGlobalError.h>
 #import <TapLoginSDK/TTSDKLoginResult.h>
 #import <TapLoginSDK/IscTaploginService.h>
-#import <TapLoginSDK/TapLoginResultDelegate.h>
+#import <TapLoginSDK/TapTapLoginResultDelegate.h>

@@ -11,11 +11,11 @@
 #import <TapLoginSDK/TTSDKProfile.h>
 #import <TapLoginSDK/TTSDKLoginResult.h>
 #import <TapLoginSDK/AccountGlobalError.h>
-#import <TapLoginSDK/TapLoginResultDelegate.h>
+#import <TapLoginSDK/TapTapLoginResultDelegate.h>
 
 #define TapLoginSDK @"TapLogin"
-#define TapLoginSDK_VERSION_NUMBER @"20103001"
-#define TapLoginSDK_VERSION        @"2.1.3"
+#define TapLoginSDK_VERSION_NUMBER @"30000001"
+#define TapLoginSDK_VERSION        @"3.0.0"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -36,13 +36,13 @@ NS_ASSUME_NONNULL_BEGIN
 
 /// 设置登录回调
 /// @param delegate 回调
-+ (void)registerLoginResultDelegate:(id <TapLoginResultDelegate>)delegate;
++ (void)registerLoginResultDelegate:(id <TapTapLoginResultDelegate>)delegate;
 
 /// 移除登录回调
 + (void)unregisterLoginResultDelegate;
 
 /// 获取当前设置的登录回调
-+ (id <TapLoginResultDelegate>)getLoginResultDelegate;
++ (id <TapTapLoginResultDelegate>)getLoginResultDelegate;
 
 /// 开始登录流程
 /// @param permissions 权限列表
