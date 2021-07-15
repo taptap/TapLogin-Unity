@@ -1,6 +1,7 @@
-### Optimization and fixed bugs
-- 修复 TapTap 授权登录的一些 UI 问题
+### Optimization
+
+- 更新 iOS 拦截 openUrl 方式
 
 ### Dependencies
 
-- TapTap.Common v2.1.6
+- TapTap.Common v2.1.7

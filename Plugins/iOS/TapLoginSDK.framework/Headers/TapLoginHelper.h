@@ -14,8 +14,8 @@
 #import <TapLoginSDK/TapTapLoginResultDelegate.h>
 
 #define TapLoginSDK @"TapLogin"
-#define TapLoginSDK_VERSION_NUMBER @"20106001"
-#define TapLoginSDK_VERSION        @"2.1.6"
+#define TapLoginSDK_VERSION_NUMBER @"20107001"
+#define TapLoginSDK_VERSION        @"2.1.7"
 
 NS_ASSUME_NONNULL_BEGIN
 
