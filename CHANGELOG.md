@@ -1,5 +1,11 @@
 # ChangeLog
 
+## 2.1.8
+
+### Dependencies
+
+- TapTap.Common v2.1.8
+
 ## 2.1.7
 
 ### Optimization
