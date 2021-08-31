@@ -1,5 +1,15 @@
 # ChangeLog
 
+## 3.2.0
+
+### New Feature
+
+- 支持 PC 端使用 TapTap 登录
+
+### Dependencies
+
+- TapTap.Common v3.2.0
+
 ## 3.1.0
 
 ### Dependencies
@@ -21,6 +31,7 @@
   ```
   var boolean = await TapLogin.GetTestQualification();
   ```
+
 ### Dependencies
 
 - TapTap.Common v3.0.0
@@ -38,6 +49,7 @@
 ### 2.1.6
 
 ### Optimization and fixed bugs
+
 - 修复 TapTap 授权登录的一些 UI 问题
 
 ### Dependencies
