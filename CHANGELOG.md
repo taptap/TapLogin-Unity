@@ -1,5 +1,15 @@
 # ChangeLog
 
+## 3.2.1
+
+### New Feature 
+
+- 新增 TapTap 登录权限配置范围
+
+### Dependencies
+
+- TapTap.Common v3.2.0
+
 ## 3.2.0
 
 ### New Feature
