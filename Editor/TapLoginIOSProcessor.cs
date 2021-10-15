@@ -32,7 +32,7 @@ namespace TapTap.Login.Editor
             {
                 Debug.LogError("TapSDK Can't find TDS-Info.plist in Project/Assets/Plugins/!");
             }
-
+            
             TapCommonCompile.HandlerPlist(path, plistFile.FullName);
 
         }
