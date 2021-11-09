@@ -1,5 +1,11 @@
 # ChangeLog
 
+## 3.4.0
+
+### Dependencies
+
+- TapTap.Common v3.4.0
+
 ## 3.3.0
 
 ### Optimization and fixed bugs
