@@ -1,0 +1,36 @@
+fileFormatVersion: 2
+<<<<<<< HEAD:Assets/TapTap/License/Plugins/Android/libs/TapLicense_3.5.0.aar.meta
+guid: f4130b93e98854110aa0a8ec5c18ccfc
+=======
+guid: 3bb41841d697946d8b449f56adfe1083
+>>>>>>> feat/pc_login:Assets/TapTap/Login/Plugins/Android/libs/TapLogin_3.5.0.aar.meta
+PluginImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  iconMap: {}
+  executionOrder: {}
+  defineConstraints: []
+  isPreloaded: 0
+  isOverridable: 0
+  isExplicitlyReferenced: 0
+  validateReferences: 1
+  platformData:
+  - first:
+      Android: Android
+    second:
+      enabled: 1
+      settings: {}
+  - first:
+      Any: 
+    second:
+      enabled: 0
+      settings: {}
+  - first:
+      Editor: Editor
+    second:
+      enabled: 0
+      settings:
+        DefaultValueInitialized: true
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
